@@ -1,16 +1,10 @@
-#include <stdio.h>
-void main()
+#include<stdio.h>
+int main()
 {
-    int rows=0;k=1;
-    printf("enter a row number:");
-    scanf("%d",&rows);
-    for(int i=1;i<=)rows;i++)
-    {
-        for(int j=1;j<=i;j++)
-        {
-            printf("%d",k);
-            k++;
-        }
-        printf("\n");
-    }
+    char op;
+    double first,second;
+    printf("enter an opertor(+,*,-,/):");
+    scanf("%c",&op);
+    printf("enter two operands:");
+    scanf("%d", &second);
 }
